@@ -1,0 +1,8 @@
+#To get all contaacts, run query on UserAccount
+
+type Contact {
+    email: String!
+    phoneNumber: String!
+    countryCode: String!
+    postalCode: String!
+}

@@ -1,0 +1,10 @@
+#To get all users, run query on UserAccount
+
+type UserAccount {
+    id: ID!
+    fullName: FullName!
+    userName: String!
+    contact: Contact!
+    address: Address!
+    products: [Products!]
+}

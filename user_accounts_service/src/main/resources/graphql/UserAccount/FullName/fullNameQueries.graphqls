@@ -1,0 +1,8 @@
+#To get all names, run query on UserAccount
+
+type FullName {
+    firstName: String!
+    lastName: String!
+    otherName:[String!]!
+    surName: String!
+}

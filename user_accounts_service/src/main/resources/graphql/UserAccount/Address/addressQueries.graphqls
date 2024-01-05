@@ -1,0 +1,8 @@
+#To get all addresses, run query on UserAccount
+
+type Address {
+    country: String!
+    county: String!
+    subCounty: String!
+    landmarks: [String!]!
+}

@@ -1,0 +1,5 @@
+#To get all products, run query on UserAccount
+
+type Products {
+    name: String
+}
